@@ -3,7 +3,7 @@ def prime?(int)
   if int == 2
     true
   end
-  sqrtInt = int.sqrt
+  sqrtInt = sqrt(int)
   while i <= sqrtInt
     if int % int == 0
       false
