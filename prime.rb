@@ -3,9 +3,9 @@ def prime?(int)
   if int == 2
     true
   end
-  sqrtInt = math.sqrt(int)
-  while i <= sqrtInt
-    if int % int == 0
+
+  while i <= int/2
+    if int % i == 0
       false
     end
     i += 1
