@@ -1,5 +1,8 @@
 def prime?(int)
   i = 2
+  if int < 2
+    false
+  end
   if int == 2
     true
   end
